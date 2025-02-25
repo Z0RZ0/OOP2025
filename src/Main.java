@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.printf("Hello and welcome!");
+       Point p1 = new Point();
+       p1.x=4.7;
+       p1.y=8.3;
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("\n Liczba i = " + i);
-        }
+       System.out.println("Twój x wynosi: "+ p1.x + " a y wynosi " + p1.y);
+
     }
 }
