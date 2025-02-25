@@ -15,6 +15,9 @@ public class Point {
     public void translate(double dx, double dy){
         x+=dx;
         y+=dy;
+    }
+
+    public String translated(double dx, double dy){
 
     }
 
