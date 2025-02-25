@@ -6,8 +6,8 @@ public class Main {
        p1.y=6;
 
        p1.translate(400,200);
-
-       System.out.println(p1.toSvg());
+       Point p2 = p1.translated(-400, -200);
+       System.out.println(p2.toSvg());
 
     }
 }
