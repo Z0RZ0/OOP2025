@@ -11,4 +11,11 @@ public class Point {
                 "  <circle r=\"45\" cx=\""+x+"\" cy=\""+y+"\" fill=\"red\" />\n" +
                 "</svg>";
     }
+
+    public void translate(double dx, double dy){
+        x+=dx;
+        y+=dy;
+
+    }
+
 }
