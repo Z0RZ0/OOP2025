@@ -9,9 +9,12 @@ public class Main {
 
 //       p1.translate(400,200);
 //       Point p2 = p1.translated(-400, -200);
-        System.out.println(p1.toSvg());
-        System.out.println();
-        System.out.println(p2.toSvg());
+//        System.out.println(p1.toSvg());
+//        System.out.println();
+//        System.out.println(p2.toSvg());
+
+        Segment s = new Segment(p1, p2);
+        System.out.println(s);
 
     }
 }

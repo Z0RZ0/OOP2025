@@ -2,9 +2,12 @@ public class Point {
     private double x;
     private double y;
 
-    public String toString()
-    {
-        return "x= "+x+" y= "+y;
+    @Override
+    public String toString() {
+        return "Point{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
     }
 
     public String toSvg(){
