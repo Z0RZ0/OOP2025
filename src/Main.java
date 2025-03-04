@@ -6,6 +6,9 @@ public class Main {
        p1.setY(6);
 
        Point p2 = new Point(7, 8);
+       Point p3 = new Point(p1);
+       Point p4 = new Point(p2);
+
 
 //       p1.translate(400,200);
 //       Point p2 = p1.translated(-400, -200);
@@ -13,13 +16,13 @@ public class Main {
 //        System.out.println();
 //        System.out.println(p2.toSvg());
 
-        Segment s = new Segment(p1, p2);
-        System.out.println(s);
-        Segment s2 = new Segment(p1, p2);
+        Segment s1 = new Segment(p1, p2);
+        System.out.println(s1);
+        Segment s2 = new Segment(p3, p4);
 
         p1.setX(15);
         p1.setY(12);
-        p2.translate(23,6);
-
+        p2.setX(15);
+        p2.setY(8);
     }
 }
