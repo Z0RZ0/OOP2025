@@ -15,6 +15,11 @@ public class Main {
 
         Segment s = new Segment(p1, p2);
         System.out.println(s);
+        Segment s2 = new Segment(p1, p2);
+
+        p1.setX(15);
+        p1.setY(12);
+        p2.translate(23,6);
 
     }
 }

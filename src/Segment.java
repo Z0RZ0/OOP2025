@@ -29,9 +29,9 @@ public class Segment {
 
     @Override
     public String toString() {
-        return "Segment{" +
-                "start=" + start +
-                ", end=" + end +
+        return "Segment{" + "\n" +
+                "\t" + "start=" + start + ",\n" +
+                "\t" + " end=" + end + "\n" +
                 '}';
     }
 }

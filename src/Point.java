@@ -4,9 +4,9 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" +
-                "x=" + x +
-                ", y=" + y +
+        return "Point{" + "\n\t\t" +
+                "x=" + x + ",\n\t\t" +
+                " y=" + y + "\n\t" +
                 '}';
     }
 
